@@ -323,6 +323,9 @@ header {
 			max-width: 300px;
 			margin-right: 30px;
 		}
+		.m-sec-text {
+			display: none;
+		}
 	}
 	.h-BnG {
 		position: relative;
@@ -994,5 +997,152 @@ header {
     .btn:before {
       transform: rotate3d(0,0,1,-45deg) translateY(0px);
     }
+  }
+  body {
+  	top: 40px;
+  }
+  .sec1 {
+  	max-height: 100%;
+  }
+  .about-content-text {
+  	 padding: 20px 20px;
+  }
+  //sec2
+  .sec2 .header {
+  	height: auto;
+  	flex-wrap: wrap;
+  	img {
+  		margin: 0;
+  		width: 100%;
+  		max-width: 100%;
+  	}
+  	br {
+  		display: none;
+  	}
+  	.m-sec-text {
+  		display: block;
+  		margin: 0 auto;
+  		h2 {
+  			margin: 10px auto;
+  			font-size: 20px;
+  			text-align: center;
+  			box-shadow: inset 0 0 0 1px #fff;
+  			padding: 15px 0;
+  			width: 90%;
+  		}
+  		p {
+  			color: rgba(255,255,255,1);
+  			line-height: 1.7;
+  			font-size: 17px;
+  			letter-spacing: 1px;
+  			padding: 5%;
+  		}
+  	}
+  }
+  .sec2 {
+  	.h-BnG {
+  		padding: 5% 0;
+  		h2 {
+  			font-size: 35px;
+  			width: 90%;
+  			margin: 35px auto;
+  		}
+  		.p {
+  			padding: 5%;
+  		}
+  	}
+  }
+  .sec2 .fn-wrap {
+  	display: none;
+  }
+  // xltt-1
+  .xltt-1 {
+  	h2 {
+  		line-height: 1.7;
+  		font-size: 35px;
+  		margin-bottom: 20px;
+  	}
+  }
+  .xltt-1-nav {
+  	display: none;
+  }
+  .xltt-1-content {
+  	display: block!important;
+  }
+  .xltt-content-text  {
+  	max-width: 100%;
+  	padding: 5%;
+  	h2 {
+  		margin: 10px auto;
+  	}
+  }
+  .xltt-content-img {
+  	margin: 0 auto;
+  }
+  .xltt-content-img img.big  {
+  	display: none;
+  }
+  .xltt-content-img .img-select {
+  	flex-direction: column;
+  	img {
+  		width: 90%;
+  		opacity: 1;
+  		margin: 10px;
+  	}
+  }
+  /////////////
+  .xltt-2-calltoaction {
+  	text-align: center;
+  	line-height: 1.5;
+  	margin-bottom: 0;
+  }
+  .xltt-2-family {
+		display: none;
+  }
+  .xltt-2-intro {
+  	display: block;
+  }
+  .xltt-2-intro {
+  	height: auto;
+  }
+  .xltt-intro-left .nav {
+  	display: none;
+  }
+  .xltt-2-intro-img {
+  	display: none;
+  }
+  //////////////
+  .other-madeforyou {
+  	height: auto;
+  	padding: 5% 0;
+  	flex-direction: column;
+  	background-attachment: scroll;
+  }
+  .other-madeforyou h1 {
+  	position: relative;
+  	top: 0;
+  	left: 0;
+  	font-size: 25px;
+  	margin: 20px auto;
+  }
+  .other-madeforyou-textbox {
+  	width: 95%;
+  	padding: 0 3%;
+  	h3 {
+  		padding-left: 0;
+  		&:after {
+	  		display: none;
+	  	}
+  	}
+  }
+  .other .other-content-content .location-card {
+  	padding: 0;
+  	.viewmap {
+  		position: relative;
+  		margin: 25px auto 0;
+  	}	
+  }
+  .other .other-content-content .qa-card {
+  	width: 100%;
   }
 }
