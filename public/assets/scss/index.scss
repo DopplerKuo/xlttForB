@@ -245,14 +245,14 @@ header {
 .youtube-position {
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
+  transform: translate3d(0,-50%,0);
+  -webkit-transform: translate3d(0,-50%,0);
   pointer-events: none;
   animation: ybShow 0.8s ease 0s 1 both;
 }
 @keyframes ybShow {
-    0% { opacity: 0; transform: translateY(0%);}
-  100% { opacity: 1; transform: translateY(-50%);}
+    0% { opacity: 0; transform: translate3d(0,0%,0);}
+  100% { opacity: 1; transform: translate3d(0,-50%,0);}
 }
 .youtube-box .img-bg-black {
   position: absolute;
