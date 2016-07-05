@@ -92,6 +92,9 @@ $(document).ready(function() {
 
 
   // xltt-2
+  $("#man").addClass('target');
+  $(".xltt-2").addClass('show');
+  $(".xltt-2-intro").not(".xltt-2-intro.man").hide();
   $("#man").click(function() {
     $(this).addClass('target');
     $(".xltt-2").addClass('show');
