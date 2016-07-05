@@ -73,6 +73,23 @@ $(document).ready(function() {
     $(".xltt-1-content.c").addClass('show');
   });
   // xltt-1 slider
+  $('.gn-1').click(function() {
+    $('.gn-show').fadeIn(0); 
+    $(".gn-show-content").removeClass('open');
+    $(".gn-show-content.a").addClass('open');
+
+  });
+  $('.gn-2').click(function() {
+    $('.gn-show').fadeIn(0); 
+    $(".gn-show-content").removeClass('open');
+    $(".gn-show-content.b").addClass('open');
+  });
+   $('.sec-text .close').click(function() {
+    $('.gn-show').fadeOut(0);
+    $(".gn-show-content").removeClass('open');
+  });
+
+
 
   // xltt-2
   $("#man").click(function() {
@@ -132,6 +149,8 @@ $(document).ready(function() {
   });
   $('.youtube-box .img-bg-black').click(function() {
     $('.youtube-box').fadeOut(300);
+    var src = $(".youtube-box iframe").attr('src');
+    $(".youtube-box iframe").attr('src', src);
   });
 // youtube-box END
 //上方導覽列
