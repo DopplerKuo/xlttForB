@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   z-index: 30;
-  animation: ybShow 0.8s ease 0s 1 both;
+  animation: ysbShow 0.8s ease 0s 1 both;
 }
 
 #itemsbox .bg {
@@ -93,7 +93,7 @@
   right: 37px;
 }
 
-@keyframes ybShow {
+@keyframes ysbShow {
   0% {
     opacity: 0;
     transform: translate3d(0, 10%, 0);
