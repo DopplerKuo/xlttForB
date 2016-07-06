@@ -654,8 +654,16 @@ header {
 .sec3 {
   position: relative;
   width: 100%;
-  height: auto;
-  padding: 55px 0 100px;
+  padding: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .sec3 .gn-show {
@@ -829,7 +837,7 @@ header {
 
 .xltt-1 h2 {
   position: relative;
-  line-height: 120px;
+  line-height: 90px;
   font-size: 40px;
   color: rgba(0, 0, 0, 0.7);
   font-weight: 700;
@@ -934,7 +942,7 @@ header {
 .xltt-content-img {
   position: relative;
   width: 100%;
-  max-width: 650px;
+  max-width: 550px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -1023,7 +1031,16 @@ header {
 }
 
 .sec4 {
-  height: auto;
+  background-color: #0098ff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .xltt-2 {
@@ -1066,9 +1083,9 @@ header {
 
 .xltt-2-intro {
   display: none;
-  height: 580px;
+  height: 480px;
   width: 100%;
-  max-width: 1100px;
+  max-width: 950px;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1088,9 +1105,9 @@ header {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-align-self: center;
       -ms-flex-item-align: center;
           align-self: center;
@@ -1129,7 +1146,8 @@ header {
 }
 
 .xltt-intro-left .nav span.target {
-  box-shadow: 0 0 0 1px #fff;
+  background-color: #fff;
+  color: #0098ff;
 }
 
 .xltt-intro-left .content {
@@ -1141,9 +1159,9 @@ header {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .xltt-intro-left .content h2 {
@@ -1159,6 +1177,7 @@ header {
 }
 
 .xltt-intro-left .content p {
+  margin-top: 15px;
   width: 100%;
   font-size: 22px;
   line-height: 1.5;
@@ -1177,12 +1196,12 @@ header {
 }
 
 .xltt-intro-left .img-box img {
-  width: 32%;
+  width: 23.5%;
   margin-right: 2%;
   cursor: pointer;
 }
 
-.xltt-intro-left .img-box img:nth-child(3) {
+.xltt-intro-left .img-box img:nth-child(4) {
   margin-right: 0%;
 }
 
@@ -1197,7 +1216,7 @@ header {
 .xltt-2-family {
   position: relative;
   width: 100%;
-  max-width: 1100px;
+  max-width: 950px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -1235,14 +1254,14 @@ header {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  max-width: 1100px;
+  max-width: 950px;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-align-items: flex-end;
       -ms-flex-align: end;
           align-items: flex-end;
-  margin-bottom: 70px;
+  margin-bottom: 35px;
 }
 
 .xltt-2-calltoaction h2 {
@@ -1285,7 +1304,6 @@ header {
 }
 
 .xltt-2.show {
-  padding: 75px 0;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;

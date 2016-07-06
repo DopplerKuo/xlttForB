@@ -452,11 +452,10 @@ header {
 .sec3 {
 	position: relative;
 	width: 100%;
-	height: auto;
-	padding: 55px 0 100px;
-
-
-	// version2:add 2 btn
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
  	.gn-show {
 		position: absolute;
 		width: 100%;
@@ -547,7 +546,7 @@ header {
 			animation: fnShowText .5s ease .3s 1 both;
 		}
 		@keyframes fnShowText{
-			  0%{ transform: translate3d(-     100%,0,0); }
+			  0%{ transform: translate3d(-100%,0,0); }
 			100%{ transform: translate3d(0%,0,0);   }
 		}
 		.sec-img {
@@ -558,8 +557,6 @@ header {
 			100%{ transform: translate3d(0%,0,0); }
 		}
 	}
-
-
 }
 .xltt-1 {
 	position: relative;
@@ -569,7 +566,7 @@ header {
   justify-content: center;
   h2 {
 		position: relative;
-		line-height: 120px;
+		line-height: 90px;
 		font-size: 40px;
 		color: rgba(0,0,0,.7);
 		font-weight: 700;
@@ -653,7 +650,7 @@ header {
 .xltt-content-img {
 	position: relative;
 	width: 100%;
-	max-width: 650px;
+	max-width: 550px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -695,7 +692,10 @@ header {
 // sec3 END
 // sec4 實現跳痛人生的百搭造型
 .sec4 {
-	height: auto;
+  background-color: #0098ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .xltt-2 {
 	position: relative;
@@ -716,13 +716,12 @@ header {
   flex-direction: column;
   padding: 50px 5%;
   background-color:#fff;
-
 }
 .xltt-2-intro {
 	display: none;
-	height: 580px;
+	height: 480px;
 	width: 100%;
-	max-width: 1100px;
+	max-width: 950px;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -731,14 +730,13 @@ header {
 	flex: 0 1 auto;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	align-self: center;
 	.nav {
 		color: #fff;
 		display: flex;
 		font-size: 0;
 		flex: 0 0 auto;
-
 		//correct version
 		.a {
 			box-shadow: inset -4px 0px -2px 0  rgba(255,255,255,.69);
@@ -759,7 +757,8 @@ header {
 			}
 		}
 		span.target {
-			box-shadow: 0 0 0 1px #fff;
+			background-color: #fff;
+			color: $main;
 		}
 	}
 	.content {
@@ -767,7 +766,7 @@ header {
 		margin: 35px 0 20px;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
+		justify-content: center;
 		h2 {
 			width: 100%;
 			font-size: 30px;
@@ -779,6 +778,7 @@ header {
 			}
 		}
 		p {
+			margin-top: 15px;
 			width: 100%;
 			font-size: 22px;
 			line-height: 1.5;
@@ -794,11 +794,11 @@ header {
 		position: relative;
 		font-size: 0;
 		img {
-			width: 32%;
+			width: 23.5%;
 			margin-right: 2%;
 			cursor: pointer;
 		}
-		img:nth-child(3) {
+		img:nth-child(4) {
 			margin-right: 0%;
 		}
 	}
@@ -811,7 +811,7 @@ header {
 .xltt-2-family {
 	position: relative;
 	width: 100%;
-	max-width: 1100px;
+	max-width: 950px;
 	display: flex;
 	justify-content: space-between;
 	.family-card {
@@ -837,10 +837,10 @@ header {
 	position: relative;
 	display: flex;
   width: 100%;
-  max-width: 1100px;
+  max-width: 950px;
 	justify-content: space-between;
 	align-items: flex-end;
-	margin-bottom: 70px;
+	margin-bottom: 35px;
 	h2 {
 		font-size: 40px; 
 		margin: 0;
@@ -878,7 +878,6 @@ header {
 	}
 }
 .xltt-2.show {
-	padding: 75px 0;
 	justify-content: center;
   align-items: center;
   .xltt-2-intro {
