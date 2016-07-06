@@ -8,6 +8,10 @@ $(document).ready(function() {
 		$("#itemsbox").fadeOut(300);
 		$('#itemsbox>div').fadeOut(0);
 	});
+	$("#itemsbox .bg").click(function(event) {
+		$("#itemsbox").fadeOut(300);
+		$('#itemsbox>div').fadeOut(0);
+	});
 	$("#itemsbox span.btn").click(function(event) {
 		var amg = $(this).attr("data-show");
 		$('#itemsbox>div').fadeOut(0);
