@@ -1078,8 +1078,10 @@ header {
 }
 
 .xltt-intro-left {
-  width: auto;
   height: 100%;
+  -webkit-flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -1187,6 +1189,9 @@ header {
 .xltt-2-intro-img {
   height: 100%;
   margin-left: 35px;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
 }
 
 .xltt-2-family {

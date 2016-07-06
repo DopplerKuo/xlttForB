@@ -727,8 +727,8 @@ header {
 	align-items: center;
 }
 .xltt-intro-left {
-	width: auto;
 	height: 100%;
+	flex: 0 1 auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -806,6 +806,7 @@ header {
 .xltt-2-intro-img {
 	height: 100%;
 	margin-left: 35px;
+	flex: 0 0 auto;
 }
 .xltt-2-family {
 	position: relative;
