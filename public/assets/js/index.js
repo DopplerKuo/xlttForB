@@ -12,7 +12,7 @@ $(document).ready(function() {
   });
   // nav END
   // index slider
-  $('.slider').unslider({
+  $('header .slider').unslider({
     autoplay: true,
     speed: 1000,              
     delay: 3500, 
@@ -20,6 +20,13 @@ $(document).ready(function() {
     nav: false,
     arrows: false,
     animation: 'fade',
+  });
+  $('.xltt-2-window-pop .slider').unslider({
+    autoplay: false,
+    speed: 350,               
+    infinite: true,
+    nav: false,
+    arrows: true,
   });
   // index slider END
   // about-fn
@@ -92,9 +99,9 @@ $(document).ready(function() {
 
 
   // xltt-2
-  $("#man").addClass('target');
-  $(".xltt-2").addClass('show');
-  $(".xltt-2-intro").not(".xltt-2-intro.man").hide();
+  // $("#man").addClass('target');
+  // $(".xltt-2").addClass('show');
+  // $(".xltt-2-intro").not(".xltt-2-intro.man").hide();
   $("#man").click(function() {
     $(this).addClass('target');
     $(".xltt-2").addClass('show');

@@ -1,0 +1,161 @@
+$main: rgba(0, 152, 255, 1);
+.sec4 .title-sub {
+	width: 100%;
+	max-width: 1000px;
+	margin: 15px auto 40px;
+	font-size: 24px;
+	color: #fff;
+	opacity: .85;
+	text-align: left;
+} 
+.sec4 .calltiaction {
+	flex: 0 0 auto;
+	width: 140px;
+	height: 30px;
+	text-align: center;
+	background-color: #353535;
+	line-height: 30px;
+	color: #fff;
+	transform: translateY(1px);
+	transition: .3s ease;
+	cursor: pointer;
+	&:hover {
+		background-color: #000;
+	}
+}
+.xltt-2-window {
+	font-size: 0;
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+	.card {
+		position: relative;
+		display: inline-block;
+		width: 22%;
+		margin-right: 4%;
+		cursor: pointer;
+		transition: .3s ease;
+		img {
+			width: 100%;
+		}
+		img.hover {
+			opacity: 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			transition: .3s ease;
+		}
+		h4,h5 {
+			font-size: 30px;
+			color: #fff;
+			text-align: center;
+			margin: 20px auto 5px;
+			font-weight: 700;
+		}
+		h5 {
+			font-size: 17px;
+			width: 80%;
+			margin: 10px auto;
+			padding: 10px;
+			box-sizing: border-box;
+			box-shadow: inset 0 0 0 1px #fff;
+			transition: .3s ease;
+		}
+		&:hover {
+			.hover {
+				opacity: 1;
+			}
+			h5 {
+				background-color: #fff;
+				color: $main;
+			}
+		}
+	}
+	.card.d {
+		margin: 0;
+	}
+}
+
+
+.xltt-2-window-pop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	.bg {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(0,0,0,.5);
+		cursor: pointer;
+	}
+	.pop {
+		display: none;
+		position: absolute;
+		width: 100%;
+		max-width: 800px;
+		margin: 0 auto;
+		top: 50%;
+		left: 50%;
+		transform: translate3d(-50%,-50%,0);
+		padding: 10px 0;
+		background-color: #fff;
+		color: rgba(0,0,0,.85);
+		.slider {
+			height: auto;
+		}
+		li img {
+			position: relative;
+			width: 100%;
+		}
+		p {
+			font-size: 20px;
+			line-height: 1.5;
+			letter-spacing: 1px;
+			padding: 20px;
+			box-sizing: border-box;
+			margin: 30px auto;
+		}
+		.calltoaction {
+			display: block;
+			width: 150px;
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+			background-color: #000;
+			margin: 10px auto;
+			a {
+				color: #fff;
+				display: block;
+			}
+		}
+	}
+	.pop.a {
+		display: block;
+	}
+}
+.pop .unslider-arrow {
+  font-size: 0;
+  top: 0;
+  height: 100%;
+  width: 10%;
+  right: 0;
+  background-image: url("../img/main/arrow.svg");
+  background-position: center;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  opacity: .45;
+  transition: .3s ease;
+  z-index: 10;
+  &:hover {
+    opacity: .9;
+  }
+}
+.pop .unslider-arrow.prev {
+  left: 0;
+  transform: rotate(180deg);
+}

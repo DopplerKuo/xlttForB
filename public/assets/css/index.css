@@ -1254,14 +1254,13 @@ header {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  max-width: 950px;
+  max-width: 1000px;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-align-items: flex-end;
       -ms-flex-align: end;
           align-items: flex-end;
-  margin-bottom: 35px;
 }
 
 .xltt-2-calltoaction h2 {
@@ -1829,6 +1828,10 @@ header {
   .sec2 .fn-wrap {
     display: none;
   }
+  .sec3 {
+    display: block;
+    height: auto;
+  }
   .sec3 .h-BnG {
     padding: 5% 0;
   }
@@ -1865,6 +1868,9 @@ header {
   }
   .sec3 .gn-wrap {
     display: none;
+  }
+  .sec4 {
+    display: block;
   }
   .sec4-2 .xltt-md {
     padding: 0;
@@ -1975,5 +1981,23 @@ header {
   }
   .other .other-content-content .qa-card {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slider .content .slider-img1 {
+    background-image: url("../img/main/home-banner1-m.jpg");
+  }
+  .slider .content .slider-img2 {
+    background-image: url("../img/main/home-banner2-m.jpg");
+  }
+  .slider .content .slider-img3 {
+    background-image: url("../img/main/home-banner3-m.jpg");
+  }
+  .slider .content .slider-img4 {
+    background-image: url("../img/main/home-banner4-m.jpg");
+  }
+  .slider .content .slider-img5 {
+    background-image: url("../img/main/home-banner5-m.jpg");
   }
 }
