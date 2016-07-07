@@ -78,6 +78,7 @@ $main: rgba(0, 152, 255, 1);
 
 
 .xltt-2-window-pop {
+	display: none;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -133,9 +134,6 @@ $main: rgba(0, 152, 255, 1);
 				display: block;
 			}
 		}
-	}
-	.pop.a {
-		display: block;
 	}
 }
 .pop .unslider-arrow {

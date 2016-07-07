@@ -85,6 +85,7 @@
 }
 
 .xltt-2-window-pop {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -147,10 +148,6 @@
 
 .xltt-2-window-pop .pop .calltoaction a {
   color: #fff;
-  display: block;
-}
-
-.xltt-2-window-pop .pop.a {
   display: block;
 }
 
