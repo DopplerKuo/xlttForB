@@ -127,6 +127,7 @@ $navH: 0px;
 		left: 0;
 		right: 0;
 		padding: 10px 0;
+		font-size: 0;
 		background-color: #fff;
 		color: rgba(0,0,0,.85);
 		.close {
@@ -168,17 +169,17 @@ $navH: 0px;
 			font-size: 15px;
 			line-height: 1.5;
 			letter-spacing: 1px;
-			padding: 20px 25px 0;
+			padding: 5px 25px 0;
 			box-sizing: border-box;
-			margin: 20px auto 0;
+			margin: 10px auto 0;
 		}
 		.small {
 			font-size: 15px;
-			padding: 20px 25px 0;
+			padding: 10px 25px 15px;
 			color: rgba(0,0,0,.5);
 		}
-		.calltoaction { 
-	  	width: 150px;
+		.calltoaction {
+	  	width: 190px;
 	  	letter-spacing: 2px;
 	  	height: 30px;
 	  	font-size: 17px;
@@ -188,7 +189,7 @@ $navH: 0px;
 	    transition: .5s ease;
 	    font-weight: bold;
 	    color: #fff;
-	    margin: 30px auto;
+	    margin: 5px auto;
 	    &:active {
 	      transform: scale(.9);
 	      box-shadow: 0 3px 2px -2px $main;
