@@ -233,23 +233,23 @@ header {
 }
 
 .slider .slider-img1 {
-  background: url("../img/main/home-banner1.jpg");
+  background: url("https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/home-banner1.jpg");
 }
 
 .slider .slider-img2 {
-  background: url("../img/main/home-banner2.jpg");
+  background: url("https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/home-banner2.jpg");
 }
 
 .slider .slider-img3 {
-  background: url("../img/main/home-banner3.jpg");
+  background: url("https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/home-banner3.jpg");
 }
 
 .slider .slider-img4 {
-  background: url("../img/main/home-banner4.jpg");
+  background: url("https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/home-banner4.jpg");
 }
 
 .slider .slider-img5 {
-  background: url("../img/main/home-banner5.jpg");
+  background: url("https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/home-banner5.jpg");
 }
 
 .slider .slider-img {
@@ -1592,7 +1592,7 @@ header {
 }
 
 .other-madeforyou {
-  background-image: url("../img/main/other-made-bg.png");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/other-made-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1661,7 +1661,7 @@ header {
   left: -5px;
   width: 20px;
   height: 20px;
-  background-image: url("../img/main/xltt-icon-02.svg");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/xltt-icon-02.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -2064,18 +2064,18 @@ header {
 
 @media screen and (max-width: 767px) {
   .slider .content .slider-img1 {
-    background-image: url("../img/main/home-banner1-m.jpg");
+    background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/home-banner1-m.jpg");
   }
   .slider .content .slider-img2 {
-    background-image: url("../img/main/home-banner2-m.jpg");
+    background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/home-banner2-m.jpg");
   }
   .slider .content .slider-img3 {
-    background-image: url("../img/main/home-banner3-m.jpg");
+    background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/home-banner3-m.jpg");
   }
   .slider .content .slider-img4 {
-    background-image: url("../img/main/home-banner4-m.jpg");
+    background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/home-banner4-m.jpg");
   }
   .slider .content .slider-img5 {
-    background-image: url("../img/main/home-banner5-m.jpg");
+    background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/home-banner5-m.jpg");
   }
 }
