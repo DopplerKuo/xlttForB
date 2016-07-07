@@ -1,6 +1,9 @@
 $main: rgba(0, 152, 255, 1);
 $main-7: rgba(0, 152, 255, .45);
 $navH: 0px;
+.sec4 {
+	padding: 5% 0;
+}
 .sec4 .title-sub {
 	width: 100%;
 	max-width: 1000px;
@@ -116,7 +119,7 @@ $navH: 0px;
 		display: none;
 		position: absolute;
 		width: 100%;
-		max-width: 800px;
+		max-width: 600px;
 		margin: 0 auto;
 		top: 50%;
 		left: 50%;
@@ -140,6 +143,10 @@ $navH: 0px;
 		.slider {
 			height: auto;
 		}
+		img {
+			position: relative;
+			width: 100%;
+		}
 		li img {
 			position: relative;
 			width: 100%;
@@ -155,7 +162,7 @@ $navH: 0px;
 				color: $main;
 				font-weight: 700;
 			}
-			font-size: 20px;
+			font-size: 15px;
 			line-height: 1.5;
 			letter-spacing: 1px;
 			padding: 20px 25px 0;
@@ -170,9 +177,9 @@ $navH: 0px;
 		.calltoaction { 
 	  	width: 150px;
 	  	letter-spacing: 2px;
-	  	height: 35px;
-	  	font-size: 20px;
-	  	line-height: 35px;
+	  	height: 30px;
+	  	font-size: 17px;
+	  	line-height: 30px;
 	    box-shadow: 0 10px 20px -5px $main-7;
 	    background: $main;
 	    transition: .5s ease;

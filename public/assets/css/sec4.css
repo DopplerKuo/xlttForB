@@ -1,3 +1,7 @@
+.sec4 {
+  padding: 5% 0;
+}
+
 .sec4 .title-sub {
   width: 100%;
   max-width: 1000px;
@@ -126,7 +130,7 @@
   display: none;
   position: absolute;
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
   top: 50%;
   left: 50%;
@@ -154,6 +158,11 @@
   height: auto;
 }
 
+.xltt-2-window-pop .pop img {
+  position: relative;
+  width: 100%;
+}
+
 .xltt-2-window-pop .pop li img {
   position: relative;
   width: 100%;
@@ -167,7 +176,7 @@
 }
 
 .xltt-2-window-pop .pop p {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.5;
   letter-spacing: 1px;
   padding: 20px 25px 0;
@@ -189,9 +198,9 @@
 .xltt-2-window-pop .pop .calltoaction {
   width: 150px;
   letter-spacing: 2px;
-  height: 35px;
-  font-size: 20px;
-  line-height: 35px;
+  height: 30px;
+  font-size: 17px;
+  line-height: 30px;
   box-shadow: 0 10px 20px -5px rgba(0, 152, 255, 0.45);
   background: #0098ff;
   transition: .5s ease;

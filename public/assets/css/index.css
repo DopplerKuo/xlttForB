@@ -78,7 +78,7 @@ body {
 section {
   position: relative;
   transition: .25s ease;
-  height: 100vh;
+  height: auto;
   width: 100%;
   top: 0px;
 }
@@ -562,7 +562,7 @@ header {
   padding-left: 5%;
 }
 
-.sec2 .sec-text h2, .sec2 .sec-text p {
+.sec2 .sec-text h2, .sec2 .sec-text p, .sec2 .sec-text div {
   display: block;
   width: 95%;
   max-width: 500px;
@@ -580,6 +580,10 @@ header {
 .sec2 .sec-text p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.sec2 .sec-text div {
+  margin-top: 25px;
 }
 
 .sec2 .sec-text .close {
@@ -1711,6 +1715,10 @@ header {
     margin: 10px 0;
     display: none;
   }
+  #nav .calltoaction {
+    display: none;
+    margin: 10px 0;
+  }
   #nav .logo {
     top: 0;
     left: 0;
@@ -1770,6 +1778,10 @@ header {
     -webkit-animation: navgo .3s ease 0s 1 both;
             animation: navgo .3s ease 0s 1 both;
   }
+  #nav.open span.calltoaction {
+    display: block;
+    margin-right: 0;
+  }
   #nav.open a:nth-child(1) {
     -webkit-animation: navgo .3s ease 0s 1 both;
             animation: navgo .3s ease 0s 1 both;
@@ -1786,7 +1798,7 @@ header {
     -webkit-animation: navgo .3s ease 0.6s 1 both;
             animation: navgo .3s ease 0.6s 1 both;
   }
-  #nav.open a:nth-child(5) {
+  #nav.open span:nth-child(5) {
     -webkit-animation: navgo .3s ease 0.8s 1 both;
             animation: navgo .3s ease 0.8s 1 both;
   }
@@ -1859,6 +1871,13 @@ header {
     width: 90%;
   }
   .sec2 .header .m-sec-text p {
+    color: white;
+    line-height: 1.7;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 5%;
+  }
+  .sec2 .header .m-sec-text div {
     color: white;
     line-height: 1.7;
     font-size: 17px;
