@@ -147,7 +147,7 @@ $(document).ready(function() {
     $(".xltt-2-intro").not(".xltt-2-intro.boy").hide();
   });
   // xltt-2 END
-  $("#nav .btn").click(function() {
+  $("#nav").click(function() {
       $("#nav").toggleClass('open')
     });
     $("#nav a").click(function() {
