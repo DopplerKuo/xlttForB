@@ -201,12 +201,17 @@ footer {
 footer .logo {
   position: relative;
   display: block;
-  margin: 10px auto;
-  width: 30px;
+  margin: 20px auto;
+  width: 200px;
 }
 
 footer .logo img {
   width: 100%;
+}
+
+footer span {
+  display: block;
+  margin: 0 auto 20px;
 }
 
 header {
@@ -584,6 +589,8 @@ header {
 
 .sec2 .sec-text div {
   margin-top: 25px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .sec2 .sec-text .close {
