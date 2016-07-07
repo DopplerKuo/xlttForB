@@ -334,8 +334,6 @@ header {
   transform: translate3d(0, -50%, 0);
   -webkit-transform: translate3d(0, -50%, 0);
   pointer-events: none;
-  -webkit-animation: ybShow 0.8s ease 0s 1 both;
-          animation: ybShow 0.8s ease 0s 1 both;
 }
 
 @-webkit-keyframes ybShow {
