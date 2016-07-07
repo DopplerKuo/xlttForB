@@ -1,7 +1,7 @@
 .s3-whatisXLTt {
   position: relative;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   height: auto;
   font-size: 0;
 }
@@ -28,7 +28,7 @@
 }
 
 .s3-whatisXLTt .card h2 {
-  font-size: 20px;
+  font-size: 25px;
   color: #0098ff;
   text-align: center;
   margin: 15px auto;
@@ -37,9 +37,17 @@
 .s3-whatisXLTt .card p {
   line-height: 1.5;
   font-size: 17px;
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0, 0, 0, 0.7);
+  letter-spacing: 1px;
 }
 
 .s3-whatisXLTt .card img {
   width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .s3-whatisXLTt .card {
+    width: 90%;
+    margin: 30px 5%;
+  }
 }

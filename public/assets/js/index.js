@@ -24,7 +24,7 @@ $(document).ready(function() {
   $('.xltt-2-window-pop .slider').unslider({
     autoplay: false,
     speed: 350,               
-    infinite: true,
+    infinite: false,
     nav: false,
     arrows: true,
   });
@@ -50,8 +50,8 @@ $(document).ready(function() {
     $(".fn-show-content").removeClass('open');
   });
   var goFindIt;
-  $(".dd").click(function() {
-    goFindIt = $(".fn-show").offset().top;
+  $("#nav span.calltoaction").click(function() {
+    goFindIt = $(".sec4").offset().top;
     $(document.body).animate({
       scrollTop: (goFindIt)
     })

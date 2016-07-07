@@ -111,20 +111,22 @@ section {
     	color: $main;
       box-shadow: 0 6px 0 -5px $main;  
     }
-    &.calltoaction { 
-    	width: 110px;
-    	height: 30px;
-    	line-height: 30px;
-      box-shadow: 0 10px 10px -5px $main-7;
-      background: $main;
-      transition: .5s ease;
-      font-weight: bold;
-      color: #fff;
-      margin-right: 3%;
-      &:active {
-        transform: scale(.9);
-        box-shadow: 0 3px 2px -2px $main;
-      }
+  }
+span.calltoaction { 
+  	width: 110px;
+  	letter-spacing: 2px;
+  	height: 30px;
+  	font-size: 15px;
+  	line-height: 30px;
+    box-shadow: 0 10px 20px -5px $main-7;
+    background: $main;
+    transition: .5s ease;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 3%;
+    &:active {
+      transform: scale(.9);
+      box-shadow: 0 3px 2px -2px $main;
     }
   }
 }
@@ -966,6 +968,12 @@ header {
 // sec7
 .sec7 {
 	height: auto;
+	.small {
+		color: rgba(255,255,255,.8);
+		line-height: 1.5;
+		padding-left: 15px;
+		margin-top: 20px;
+	}
 }
 .other {
 	position: relative;
@@ -1065,20 +1073,24 @@ header {
 		}
 		.qa-card {
 			position: relative;
-			width: 43%;
-			margin: 3.3%;
+			width: 100%;
+			margin: 20px auto;
 			.q {
 				font-size: 20px;
 				color: rgba(0,0,0,.70);
 				margin-bottom: 15px;
+				letter-spacing: 1px;
+				line-height: 1.5;
 				b {
 					color: $main;
 					font-size: 25px;
+					margin-right: 5px;
 				}
 			}
 			.a {
 				font-size: 17px;
-				line-height: 1.5;
+				line-height: 1.7;
+				letter-spacing: 1px;
 				color: rgba(0,0,0,.5);
 			}
 		}
@@ -1140,7 +1152,32 @@ header {
 	}
 }
 
+
+.timeline {
+	height: auto;
+	.title {
+		position: relative;
+		width: 100%;
+		max-width: 1000px;
+		margin: 50px auto 0;
+		color: $main;
+		font-size: 35px;
+		letter-spacing: 1px;
+		font-weight: 700;
+		text-align: center;
+	}
+}
+.pc,.m {
+	display: block;
+	width: 100%;
+	max-width: 1400px;
+	margin: 0px auto 50px;
+}
+.pc {display: block;}
+.m  {display: none;}
 @media screen and (max-width: 992px){
+	.pc {display: none;}
+	.m  {display: block;}
   #nav {
     width: 100%;
     height: 40px;
@@ -1322,6 +1359,7 @@ header {
   }
 	.sec4 {
 		display: block;
+		height: auto;
 	}
 //version2
 //version2

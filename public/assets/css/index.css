@@ -136,11 +136,13 @@ section {
   box-shadow: 0 6px 0 -5px #0098ff;
 }
 
-#nav a.calltoaction {
+#nav span.calltoaction {
   width: 110px;
+  letter-spacing: 2px;
   height: 30px;
+  font-size: 15px;
   line-height: 30px;
-  box-shadow: 0 10px 10px -5px rgba(0, 152, 255, 0.45);
+  box-shadow: 0 10px 20px -5px rgba(0, 152, 255, 0.45);
   background: #0098ff;
   transition: .5s ease;
   font-weight: bold;
@@ -148,7 +150,7 @@ section {
   margin-right: 3%;
 }
 
-#nav a.calltoaction:active {
+#nav span.calltoaction:active {
   -webkit-transform: scale(0.9);
       -ms-transform: scale(0.9);
           transform: scale(0.9);
@@ -1420,6 +1422,13 @@ header {
   height: auto;
 }
 
+.sec7 .small {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.5;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
 .other {
   position: relative;
   width: 95%;
@@ -1546,24 +1555,28 @@ header {
 
 .other .other-content-content .qa-card {
   position: relative;
-  width: 43%;
-  margin: 3.3%;
+  width: 100%;
+  margin: 20px auto;
 }
 
 .other .other-content-content .qa-card .q {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.7);
   margin-bottom: 15px;
+  letter-spacing: 1px;
+  line-height: 1.5;
 }
 
 .other .other-content-content .qa-card .q b {
   color: #0098ff;
   font-size: 25px;
+  margin-right: 5px;
 }
 
 .other .other-content-content .qa-card .a {
   font-size: 17px;
-  line-height: 1.5;
+  line-height: 1.7;
+  letter-spacing: 1px;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -1641,7 +1654,44 @@ header {
   box-shadow: inset 0 0 0 2px #fff;
 }
 
+.timeline {
+  height: auto;
+}
+
+.timeline .title {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 50px auto 0;
+  color: #0098ff;
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.pc, .m {
+  display: block;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0px auto 50px;
+}
+
+.pc {
+  display: block;
+}
+
+.m {
+  display: none;
+}
+
 @media screen and (max-width: 992px) {
+  .pc {
+    display: none;
+  }
+  .m {
+    display: block;
+  }
   #nav {
     width: 100%;
     height: 40px;
@@ -1871,6 +1921,7 @@ header {
   }
   .sec4 {
     display: block;
+    height: auto;
   }
   .sec4-2 .xltt-md {
     padding: 0;

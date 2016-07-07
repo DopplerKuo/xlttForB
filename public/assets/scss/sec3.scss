@@ -2,7 +2,7 @@ $main: rgba(0, 152, 255, 1);
 .s3-whatisXLTt {
 	position: relative;
 	width: 100%;
-	max-width: 1000px;
+	max-width: 1200px;
 	height: auto;
 	font-size: 0;
 	h2,h3 {
@@ -23,7 +23,7 @@ $main: rgba(0, 152, 255, 1);
 		margin: auto 1.5%;
 		vertical-align: top;
 		h2 {
-			font-size: 20px;
+			font-size: 25px;
 			color: $main;
 			text-align: center;
 			margin: 15px auto;
@@ -31,10 +31,20 @@ $main: rgba(0, 152, 255, 1);
 		p {
 			line-height: 1.5;
 			font-size: 17px;
-			color: rgba(0,0,0,.85);
+			color: rgba(0,0,0,.7);
+			letter-spacing: 1px;
 		}
 		img {
 			width: 100%;
 		}
 	}
+}
+@media screen and (max-width:992px) {
+	.s3-whatisXLTt .card {
+		width: 90%;
+		margin: 30px 5%;
+	}
+}
+@media screen and (max-width:568px) {
+
 }
