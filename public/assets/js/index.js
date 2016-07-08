@@ -150,12 +150,6 @@ $(document).ready(function() {
   $("#nav").click(function() {
       $("#nav").toggleClass('open')
     });
-    $("#nav a").click(function() {
-      $("#nav").removeClass('open')
-     });
-    $("#nav .calltoaction").click(function() {
-      $("#nav").removeClass('open')
-     });
   // youtube-box  
   $('.s1-playvideo').click(function() {
     $('.youtube-box').fadeIn(300); 
@@ -187,6 +181,7 @@ $(window).scroll(function(){
     }
   });
   $("#nav>a").eq(index).addClass("active").siblings().removeClass("active");
+  $("#nav").removeClass('open')
 })
 // $("#nav").headroom();
 //上方導覽列 END
