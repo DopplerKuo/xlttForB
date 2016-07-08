@@ -143,7 +143,7 @@
   position: relative;
   width: 100%;
   max-width: 570px;
-  padding: 10px 0;
+  padding: 0 0 10px;
   font-size: 0;
   background-color: #fff;
   color: rgba(0, 0, 0, 0.85);
@@ -162,6 +162,30 @@
   background-color: rgba(0, 0, 0, 0.85);
   cursor: pointer;
   z-index: 100;
+}
+
+.xltt-2-window-pop .pop .sizes {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100px;
+  line-height: 25px;
+  text-align: center;
+  box-shadow: inset 0 0 0 1px #0098ff;
+  color: #0098ff;
+  font-size: 17px;
+  cursor: pointer;
+  z-index: 100;
+  transition: .3s ease;
+}
+
+.xltt-2-window-pop .pop .sizes:hover {
+  background-color: #0098ff;
+  color: #fff;
+}
+
+.xltt-2-window-pop .pop .sizes.b {
+  left: 110px;
 }
 
 .xltt-2-window-pop .pop .slider {

@@ -38,4 +38,16 @@ $(document).ready(function() {
 		var thispp = $(this).attr("data-item");
 		$('.xltt-2-window-pop>div[data-item=' + thispp + ']').fadeIn(0);
 	});
+	$(".sizes.a").click(function(event) {
+		var thisSize = $(this).nextAll(".unslider"); 
+		thisSize.find("ul").css("left","-400%")
+		thisSize.find("li").removeClass("unslider-active");
+		thisSize.find("li").eq(4).addClass("unslider-active");
+	});
+	$(".sizes.b").click(function(event) {
+		var thisSize = $(this).next(".unslider"); 
+		thisSize.find("ul").css("left","-500%")
+		thisSize.find("li").removeClass("unslider-active");
+		thisSize.find("li").eq(5).addClass("unslider-active");
+	});
 });
