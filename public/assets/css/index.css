@@ -1624,7 +1624,8 @@ header {
 .other-madeforyou-textbox {
   position: relative;
   width: 50%;
-  height: 500px;
+  height: auto;
+  min-height: 500px;
   background-color: rgba(0, 0, 0, 0.7);
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1684,7 +1685,10 @@ header {
 .pc, .m {
   display: block;
   width: 100%;
-  max-width: 1400px;
+  max-width: 1263px;
+  -webkit-transform: translateX(17px);
+      -ms-transform: translateX(17px);
+          transform: translateX(17px);
   margin: 0px auto 50px;
 }
 
@@ -1699,6 +1703,9 @@ header {
 @media screen and (max-width: 992px) {
   .pc {
     display: none;
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
   }
   .m {
     display: block;
@@ -2042,13 +2049,16 @@ header {
   }
   .other-madeforyou-textbox {
     width: 95%;
-    padding: 0 3%;
+    padding: 2% 4%;
   }
   .other-madeforyou-textbox h3 {
-    padding-left: 0;
+    font-size: 18px;
+    line-height: 1.2;
+    padding-left: 10px;
   }
-  .other-madeforyou-textbox h3:after {
-    display: none;
+  .other-madeforyou-textbox .small {
+    margin-top: 5px;
+    padding: 0;
   }
   .other .other-content-content .location-card {
     padding: 0;

@@ -1131,7 +1131,8 @@ header {
 .other-madeforyou-textbox {
 	position: relative;
 	width: 50%;
-	height: 500px;
+	height: auto;
+	min-height: 500px;
 	background-color: rgba(0,0,0,.7);
 	display: flex;
 	flex-direction: column;
@@ -1181,13 +1182,14 @@ header {
 .pc,.m {
 	display: block;
 	width: 100%;
-	max-width: 1400px;
+	max-width: 1263px;
+	transform: translateX(17px);
 	margin: 0px auto 50px;
 }
 .pc {display: block;}
 .m  {display: none;}
 @media screen and (max-width: 992px){
-	.pc {display: none;}
+	.pc {display: none; transform: translateX(0);}
 	.m  {display: block;}
   #nav {
     width: 100%;
@@ -1492,12 +1494,15 @@ header {
   }
   .other-madeforyou-textbox {
   	width: 95%;
-  	padding: 0 3%;
+  	padding: 2% 4%;
   	h3 {
-  		padding-left: 0;
-  		&:after {
-	  		display: none;
-	  	}
+  		font-size: 18px;
+  		line-height: 1.2;
+  		padding-left: 10px;
+  	}
+  	.small {
+  		margin-top: 5px;
+  		padding: 0;
   	}
   }
   .other .other-content-content .location-card {
