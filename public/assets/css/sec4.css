@@ -86,6 +86,10 @@
   font-weight: 700;
 }
 
+.xltt-2-window .card h4 span, .xltt-2-window .card h5 span {
+  font-size: 17px;
+}
+
 .xltt-2-window .card h5 {
   font-size: 17px;
   width: 80%;
