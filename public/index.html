@@ -29,7 +29,7 @@
   <a href="javascript:;">什麼是 XLTt</a>
   <a href="javascript:;">外型選擇</a>
   <a href="javascript:;">常見問題</a>
-  <span class="calltoaction" onclick="click_event('立即購買', 'nav上的')">立即購買</span>
+  <span data-item="select-location" class="calltoaction" onclick="click_event('立即購買', 'nav上的')">立即購買</span>
   <span class="logo" href="javascript:;">
     <img src="https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/logo.svg" alt="">
   </span>
@@ -408,29 +408,6 @@
 						立即購買
 					</div>
 			 	</div>
-			 	<div data-item="s3-a" class="pop e">
-			 		<span class="close">關閉</span>
-					<img src="https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/s3-a.jpg" alt="">
-					<p><b>偏光墨鏡鏡片</b><br>於鏡片加入著色化合物，擁有抗 UV400 紫外線防護功能，而偏光功能可徹底清除來自水平方向的刺眼眩光，更能完整的保護眼睛。</p>	
-			 	</div>
-			 	<div data-item="s3-b" class="pop f">
-			 		<span class="close">關閉</span>
-					<img src="https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/s3-b.jpg" alt="">
-					<p><b>水銀墨鏡鏡片</b><br>將各種色彩鍍膜在鏡片表面，鏡片如鏡子般反射眼前景物，給你與眾不同的都會感，同時擁有抗 UV400 紫外線功能。</p>	
-			 	</div>
-			 	<div data-item="select-location" class="pop g">
-			 		<span class="close">關閉</span>
-					<p><b>請選擇購買地區</b></p>
-					<div class="calltoaction sl" onclick="click_event('立即購買', '地區選擇 - 台灣')">
-						<a href="https://xltt.backme.tw/cashflow/checkout?locale=zh-TW&project_id=279&reward_id=1166">台灣</a>
-					</div>
-					<div class="calltoaction sl" onclick="click_event('立即購買', '地區選擇 - 馬來西亞')">
-						<a href="https://xltt.backme.tw/cashflow/checkout?locale=zh-TW&project_id=279&reward_id=1166&country=malaysia">馬來西亞</a>
-					</div>
-					<div class="calltoaction sl" onclick="click_event('立即購買', '地區選擇 - 新加坡')">
-						<a href="https://xltt.backme.tw/cashflow/checkout?locale=zh-TW&project_id=279&reward_id=1166&country=singapore">新加坡</a>
-					</div>
-			 	</div>
 			</div>
 		</div>
 	</section>
@@ -525,6 +502,62 @@
   <img class="logo" src="https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/logo-12.svg" alt="">
 	<span> Supported By Backer-Founder.</span>
 </footer>
+<div class="intro-window-pop">
+ 	<span class="bg"></span>
+	<!-- 其他 pop -->
+ 	<div data-item="s3-a" class="pop e">
+ 		<span class="close">關閉</span>
+ 		<div data-item="s3-a" class="two a active">偏光墨鏡</div>
+ 		<div data-item="s3-b" class="two b">水銀墨鏡</div>
+		<img src="https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/s3-a.jpg" alt="">
+		<p><b>偏光墨鏡鏡片</b><br>於鏡片加入著色化合物，擁有抗 UV400 紫外線防護功能，而偏光功能可徹底清除來自水平方向的刺眼眩光，更能完整的保護眼睛。</p>	
+		<div data-item="select-location" class="calltoaction" onclick="click_event('立即購買', '前掛區-偏光墨鏡')">
+			立即購買
+		</div>
+ 	</div>
+ 	<div data-item="s3-b" class="pop f">
+ 		<span class="close">關閉</span>
+ 		<div data-item="s3-a" class="two a">偏光墨鏡</div>
+ 		<div data-item="s3-b" class="two b active">水銀墨鏡</div>
+		<img src="https://diat4w9qa5tx9.cloudfront.net/lp/xltt/img/main/s3-b.jpg" alt="">
+		<p><b>水銀墨鏡鏡片</b><br>將各種色彩鍍膜在鏡片表面，鏡片如鏡子般反射眼前景物，給你與眾不同的都會感，同時擁有抗 UV400 紫外線功能。</p>	
+		<div data-item="select-location" class="calltoaction" onclick="click_event('立即購買', '前掛區-')">
+			立即購買
+		</div>
+ 	</div>
+ </div>
+<div class="selectLocation-window-pop">
+ 	<span class="bg"></span>
+ 	<div data-item="select-location" class="pop g">
+ 		<span class="close">關閉</span>
+ 		<div class="buy">
+	 		<div class="buyselect-location">
+	 			<p><b>請選擇購買地區</b></p>
+				<div class="calltoaction sl" onclick="click_event('立即購買', '地區選擇 - 台灣')">
+					<a href="https://xltt.backme.tw/cashflow/checkout?locale=zh-TW&project_id=279&reward_id=1166" target="_blank">台灣</a>
+				</div>
+				<div class="calltoaction sl" onclick="click_event('立即購買', '地區選擇 - 香港')">
+					<a href="https://xltt.backme.tw/cashflow/checkout?locale=zh-TW&project_id=279&reward_id=1166&country=hongkong" target="_blank">香港</a>
+				</div>
+				<div class="calltoaction sl" onclick="click_event('立即購買', '地區選擇 - 馬來西亞')">
+					<a href="https://xltt.backme.tw/cashflow/checkout?locale=zh-TW&project_id=279&reward_id=1166&country=malaysia" target="_blank">馬來西亞</a>
+				</div>
+				<div class="calltoaction sl" onclick="click_event('立即購買', '地區選擇 - 新加坡')">
+					<a href="https://xltt.backme.tw/cashflow/checkout?locale=zh-TW&project_id=279&reward_id=1166&country=singapore" target="_blank">新加坡</a>
+				</div>
+	 		</div>
+			<div class="buyflow">
+				<div class="title"><b>購買一組眼鏡包含</b></div>
+				<img src="/assets/img/main/supergood.svg" alt="">
+				<!-- <span>1. 所選款式鏡框</span><br>
+				<span>2. 藍光鏡片 (大人款可選無藍光版，並提供 85 折優惠)</span><br>
+				<span>3. 隱藏式墨鏡前掛任選一支 (加購第二支 +900 NTD)</span><br> -->
+				<div class="more a">了解款式</div>
+				<div data-item="s3-a" class="more b">了解前掛</div>
+			</div>
+ 		</div>
+ 	</div>
+</div>
 </body>
 <script src="/assets/js/jquery-2.1.4.min.js"></script>
 <script src="/assets/js/jquery.event.move.js"></script>

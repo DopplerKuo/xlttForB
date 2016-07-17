@@ -113,7 +113,7 @@
   margin: 0;
 }
 
-.xltt-2-window-pop {
+.xltt-2-window-pop, .selectLocation-window-pop, .intro-window-pop {
   display: none;
   overflow: scroll;
   position: fixed;
@@ -130,7 +130,7 @@
           align-items: center;
 }
 
-.xltt-2-window-pop .bg {
+.xltt-2-window-pop .bg, .selectLocation-window-pop .bg, .intro-window-pop .bg {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -140,7 +140,7 @@
   cursor: pointer;
 }
 
-.xltt-2-window-pop .pop {
+.xltt-2-window-pop .pop, .selectLocation-window-pop .pop, .intro-window-pop .pop {
   -webkit-animation: ysbShow 0.8s ease 0s 1 both;
           animation: ysbShow 0.8s ease 0s 1 both;
   display: none;
@@ -153,7 +153,7 @@
   color: rgba(0, 0, 0, 0.85);
 }
 
-.xltt-2-window-pop .pop .close {
+.xltt-2-window-pop .pop .close, .selectLocation-window-pop .pop .close, .intro-window-pop .pop .close {
   position: absolute;
   top: 0;
   right: 0px;
@@ -168,7 +168,7 @@
   z-index: 100;
 }
 
-.xltt-2-window-pop .pop .sizes {
+.xltt-2-window-pop .pop .sizes, .selectLocation-window-pop .pop .sizes, .intro-window-pop .pop .sizes {
   position: absolute;
   top: 5px;
   left: 5px;
@@ -183,32 +183,32 @@
   transition: .3s ease;
 }
 
-.xltt-2-window-pop .pop .sizes:hover {
+.xltt-2-window-pop .pop .sizes:hover, .selectLocation-window-pop .pop .sizes:hover, .intro-window-pop .pop .sizes:hover {
   background-color: #0098ff;
   color: #fff;
 }
 
-.xltt-2-window-pop .pop .sizes.b {
+.xltt-2-window-pop .pop .sizes.b, .selectLocation-window-pop .pop .sizes.b, .intro-window-pop .pop .sizes.b {
   left: 110px;
 }
 
-.xltt-2-window-pop .pop .slider {
+.xltt-2-window-pop .pop .slider, .selectLocation-window-pop .pop .slider, .intro-window-pop .pop .slider {
   height: auto;
 }
 
-.xltt-2-window-pop .pop img {
+.xltt-2-window-pop .pop img, .selectLocation-window-pop .pop img, .intro-window-pop .pop img {
   position: relative;
   width: 100%;
 }
 
-.xltt-2-window-pop .pop li h4 {
+.xltt-2-window-pop .pop li h4, .selectLocation-window-pop .pop li h4, .intro-window-pop .pop li h4 {
   text-align: center;
   color: #0098ff;
   letter-spacing: 1px;
   font-size: 20px;
 }
 
-.xltt-2-window-pop .pop p {
+.xltt-2-window-pop .pop p, .selectLocation-window-pop .pop p, .intro-window-pop .pop p {
   font-size: 15px;
   line-height: 1.5;
   letter-spacing: 1px;
@@ -217,18 +217,18 @@
   margin: 10px auto 0;
 }
 
-.xltt-2-window-pop .pop p b {
+.xltt-2-window-pop .pop p b, .selectLocation-window-pop .pop p b, .intro-window-pop .pop p b {
   color: #0098ff;
   font-weight: 700;
 }
 
-.xltt-2-window-pop .pop .small {
+.xltt-2-window-pop .pop .small, .selectLocation-window-pop .pop .small, .intro-window-pop .pop .small {
   font-size: 15px;
   padding: 10px 25px 15px;
   color: rgba(0, 0, 0, 0.5);
 }
 
-.xltt-2-window-pop .pop .calltoaction {
+.xltt-2-window-pop .pop .calltoaction, .selectLocation-window-pop .pop .calltoaction, .intro-window-pop .pop .calltoaction {
   width: 190px;
   letter-spacing: 2px;
   height: 30px;
@@ -242,38 +242,63 @@
   margin: 5px auto;
 }
 
-.xltt-2-window-pop .pop .calltoaction:active {
+.xltt-2-window-pop .pop .calltoaction:active, .selectLocation-window-pop .pop .calltoaction:active, .intro-window-pop .pop .calltoaction:active {
   -webkit-transform: scale(0.9);
       -ms-transform: scale(0.9);
           transform: scale(0.9);
   box-shadow: 0 3px 2px -2px #0098ff;
 }
 
-.xltt-2-window-pop .pop .calltoaction a {
+.xltt-2-window-pop .pop .calltoaction a, .selectLocation-window-pop .pop .calltoaction a, .intro-window-pop .pop .calltoaction a {
   display: block;
   color: #fff;
 }
 
-.xltt-2-window-pop .pop .calltoaction.sl {
+.xltt-2-window-pop .pop .calltoaction.sl, .selectLocation-window-pop .pop .calltoaction.sl, .intro-window-pop .pop .calltoaction.sl {
   background-color: #fff;
   box-shadow: inset 0 0 0 1px #0098ff;
   margin: 10px auto;
 }
 
-.xltt-2-window-pop .pop .calltoaction.sl:active {
+.xltt-2-window-pop .pop .calltoaction.sl:active, .selectLocation-window-pop .pop .calltoaction.sl:active, .intro-window-pop .pop .calltoaction.sl:active {
   -webkit-transform: scale(0.9);
       -ms-transform: scale(0.9);
           transform: scale(0.9);
   box-shadow: 0 3px 2px -2px #0098ff;
 }
 
-.xltt-2-window-pop .pop .calltoaction.sl a {
+.xltt-2-window-pop .pop .calltoaction.sl a, .selectLocation-window-pop .pop .calltoaction.sl a, .intro-window-pop .pop .calltoaction.sl a {
   display: block;
   color: #0098ff;
 }
 
 .pop.g {
-  max-width: 450px;
+  max-width: 900px;
+  padding: 15px;
+}
+
+.pop.g .buy {
+  position: relative;
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pop.g .buyselect-location {
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+  width: 200px;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
 }
 
 .pop.g p {
@@ -309,6 +334,59 @@
   color: #0098ff;
 }
 
+.buyflow {
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+  width: 100%;
+  margin: 0 20px 0 0;
+  padding: 10px 20px 10px 0;
+  font-size: 0;
+  box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.buyflow .title {
+  font-weight: 700;
+  color: #0098ff;
+  font-size: 19px;
+  text-align: center;
+}
+
+.buyflow span {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+}
+
+.buyflow img {
+  width: 100%;
+}
+
+.buyflow .more {
+  font-size: 15px;
+  display: inline-block;
+  width: 47.5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.buyflow .more:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+.buyflow .more.b {
+  margin-right: 0;
+}
+
 .pop .unslider-arrow {
   font-size: 0;
   top: 0;
@@ -333,6 +411,33 @@
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+.pop.e p, .pop.f p {
+  padding: 5px 25px 12px;
+}
+
+.two {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100px;
+  line-height: 25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 17px;
+  cursor: pointer;
+  z-index: 100;
+  transition: .3s ease;
+}
+
+.two.active {
+  box-shadow: inset 0 0 0 1px #0098ff;
+  color: #0098ff;
+}
+
+.two.b {
+  left: 110px;
 }
 
 @media screen and (max-width: 992px) {

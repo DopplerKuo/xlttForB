@@ -49,13 +49,13 @@ $(document).ready(function() {
     $('.fn-show').fadeOut(0);
     $(".fn-show-content").removeClass('open');
   });
-  var goFindIt;
-  $("#nav span.calltoaction").click(function() {
-    goFindIt = $(".sec4").offset().top;
-    $(document.body).animate({
-      scrollTop: (goFindIt)
-    })
-  }); 
+  // var goFindIt;
+  // $("#nav span.calltoaction").click(function() {
+  //   goFindIt = $(".sec4").offset().top;
+  //   $(document.body).animate({
+  //     scrollTop: (goFindIt)
+  //   })
+  // }); 
   // about-fn END
   // xltt-1
   $(".img-select img").click(function() {
