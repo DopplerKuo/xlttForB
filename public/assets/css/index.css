@@ -1729,8 +1729,9 @@ header {
     display: none;
   }
   #nav .calltoaction {
-    display: none;
-    margin: 10px 0;
+    position: absolute;
+    top: 0;
+    margin: 5px;
   }
   #nav .logo {
     top: 0;
@@ -1810,10 +1811,6 @@ header {
   #nav.open a:nth-child(4) {
     -webkit-animation: navgo .3s ease 0.6s 1 both;
             animation: navgo .3s ease 0.6s 1 both;
-  }
-  #nav.open span:nth-child(5) {
-    -webkit-animation: navgo .3s ease 0.8s 1 both;
-            animation: navgo .3s ease 0.8s 1 both;
   }
   @-webkit-keyframes navgo {
     0% {

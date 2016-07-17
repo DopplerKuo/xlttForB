@@ -196,5 +196,14 @@ sr.reveal('.sec4 .reveal',400);
 sr.reveal('.sec5 .reveal',340);
 // reveal END
 
+$(document).ready(function(){
+  w = $(window).width();
+  if ( w <= 768 ) {
+   $(".xltt-2-window .card.a").find("img").attr("src", "/assets/img/main/sec4/xuan-1-m.jpg");
+   $(".xltt-2-window .card.b").find("img").attr("src", "/assets/img/main/sec4/cardin-1-m.jpg");
+   $(".xltt-2-window .card.c").find("img").attr("src", "/assets/img/main/sec4/liv-1-m.jpg");
+   $(".xltt-2-window .card.d").find("img").attr("src", "/assets/img/main/sec4/lucas-1-m.jpg");
+  }
+});
 
 

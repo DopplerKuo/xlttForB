@@ -1203,8 +1203,9 @@ header {
       display: none;
     }
     .calltoaction {
-    	display: none;
-    	margin: 10px 0;
+    	position: absolute;
+    	top: 0;
+    	margin: 5px;
     }
     .logo {
       top: 0;
@@ -1262,7 +1263,6 @@ header {
     a:nth-child(2) { animation: navgo .3s ease 0.2s 1 both; }
     a:nth-child(3) { animation: navgo .3s ease 0.4s 1 both; }
     a:nth-child(4) { animation: navgo .3s ease 0.6s 1 both; }
-    span:nth-child(5) { animation: navgo .3s ease 0.8s 1 both; }
     @keyframes navgo {
         0%{ transform: translateX(-10%); opacity: 0; }
       100%{ transform: translateX(0%); opacity: 1; }

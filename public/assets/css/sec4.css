@@ -361,6 +361,23 @@
 
 .buyflow img {
   width: 100%;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.buyflow img.pc {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.buyflow img.m {
+  width: 100%;
+  margin: 10px auto;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
 }
 
 .buyflow .more {
@@ -466,6 +483,16 @@
   }
   .sec4 .title-sub {
     text-align: center;
+  }
+  .pop.g .buy {
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .buyflow {
+    padding: 10px;
+    margin: 0;
+    box-shadow: inset 0 1px 0 0 transparent;
   }
 }
 
