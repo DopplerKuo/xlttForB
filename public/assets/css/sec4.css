@@ -301,6 +301,14 @@
           flex: 0 0 auto;
 }
 
+.pop.g .buyselect-location .small {
+  line-height: 1.3;
+  text-align: left;
+  padding: 0;
+  display: block;
+  margin-top: 20px;
+}
+
 .pop.g p {
   font-size: 15px;
   line-height: 1.5;
@@ -489,6 +497,15 @@
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+  .pop.g .buy .buyselect-location {
+    width: 95%;
+  }
+  .pop.g .buy .buyselect-location p b {
+    font-size: 19px;
+  }
+  .pop.g .buy .buyselect-location .small {
+    text-align: center;
+  }
   .buyflow {
     padding: 10px;
     margin: 0;
@@ -503,6 +520,9 @@
   }
   .xltt-2-window .card.d {
     margin: 20px 5%;
+  }
+  .buyflow .more {
+    display: none;
   }
 }
 
@@ -529,5 +549,11 @@
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
+  }
+}
+
+@media screen and (max-height: 550px) {
+  .pop.g .buyselect-location .small {
+    display: none;
   }
 }
