@@ -1163,7 +1163,11 @@ header {
 		}
 	}
 }
-
+.qa-card {
+	a {
+		color: $main;
+	}
+}
 
 .timeline {
 	height: auto;
