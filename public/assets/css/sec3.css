@@ -1,10 +1,13 @@
+.sec3 {
+  padding: 5% 0;
+}
+
 .s3-whatisXLTt {
   position: relative;
   width: 100%;
   max-width: 1200px;
   height: auto;
   font-size: 0;
-  padding: 5% 0;
 }
 
 .s3-whatisXLTt h2, .s3-whatisXLTt h3 {
