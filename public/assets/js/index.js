@@ -152,6 +152,11 @@ $(document).ready(function() {
     });
   // youtube-box  
   $('.s1-playvideo').click(function() {
+    var link = $(this).attr('data-link');
+    $(".youtube-box iframe").attr('src', "").hide();
+    $(".youtube-box iframe").attr('src', link).load(function(){
+      $(this).show();
+    });
     $('.youtube-box').fadeIn(300); 
   });
   $('.youtube-box .img-bg-black').click(function() {
